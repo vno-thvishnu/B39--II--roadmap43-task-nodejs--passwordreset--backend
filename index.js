@@ -12,7 +12,8 @@ const PASSWORD = process.env.password;
 
 app.use(
   cors({
-    orgin: "http://localhost:3000",
+    // orgin: "http://localhost:3000",
+    orgin: "https://63b029f23bb42017da2568c9--warm-dodol-e6ccb1.netlify.app",
   })
 );
 
